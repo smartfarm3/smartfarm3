@@ -1,10 +1,11 @@
-import React from "react";
-import tw, { css } from "twin.macro";
+// import React from "react";
+// import tw, { css } from "twin.macro";
+import Robottok from "../imagesfarm/Header/Robottok.png";
 
 const Header = () => {
     return (
-        <div className="lg:w-full w-full bg-blue-0">
-            123
+        <div className="h-screen">
+            <Robottok />
         
         </div>
     );

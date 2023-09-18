@@ -9,14 +9,11 @@ import Header from "./pages/Header";
 
 const App = () => {
     return (
-        // <BrowserRouter>
-        //     <Routes>
-        //         <Route path="/" element={<Home />}></Route>
-        //         <Route path="/world" element={<Sub />}></Route>
-        //     </Routes>
-        // </BrowserRouter>
-        <Header />
+        <div className="">
+            <Header />
+            
+        </div> 
     );
-}
+};
 
 export default App;
