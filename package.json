@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "webpack --config ./client/webpack.config.js",
+    "build": "npm rebuild && webpack --config ./client/webpack.config.js",
     "start-prod": "webpack serve --open --config webpack.prod.js",
     "start": "webpack-dev-server --config webpack.dev.js --open --hot"
   },
