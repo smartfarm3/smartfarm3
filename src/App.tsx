@@ -7,12 +7,9 @@ import Sub from "./pages/Page_Sub";
 
 const App = () => {
     return (
-        <BrowserRouter>
-            <Routes>
-                <Route path="/" element={<Home />}></Route>
-                <Route path="/world" element={<Sub />}></Route>
-            </Routes>
-        </BrowserRouter>
+        <div className="flex justify-around items-top m-3 p-3">
+        Template: React + TypeScript + Tailwind
+        </div>
     );
 }
 
