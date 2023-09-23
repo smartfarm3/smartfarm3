@@ -15,7 +15,6 @@ const App = () => {
             <Header />
             <Taglist />
             <Pagelist />
-            
             <Footer />
 
             
