@@ -1,7 +1,8 @@
 import React from "react";
 import tw, { css } from "twin.macro";
 
-const Default = () => {
+
+const Taglist = () => {
     return (
         <div className="">
         
@@ -11,4 +12,4 @@ const Default = () => {
     );
 };
 
-export default Default;
+export default Taglist;
