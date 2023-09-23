@@ -14,51 +14,36 @@ import Robottok11 from "../imagesfarm/farmlist/farm11.png";
 import Robottok12 from "../imagesfarm/farmlist/farm12.png";
 import Robottok13 from "../imagesfarm/farmlist/farm13.png";
 
+const RobottokImages = [
+  { src: Robottok1, link: "외부 링크 URL 1" },
+  { src: Robottok2, link: "외부 링크 URL 2" },
+  { src: Robottok3, link: "외부 링크 URL 3" },
+  { src: Robottok4, link: "외부 링크 URL 4" },
+  { src: Robottok5, link: "외부 링크 URL 5" },
+  { src: Robottok6, link: "외부 링크 URL 6" },
+  { src: Robottok7, link: "외부 링크 URL 7" },
+  { src: Robottok8, link: "외부 링크 URL 8" },
+  { src: Robottok9, link: "외부 링크 URL 9" },
+  { src: Robottok10, link: "외부 링크 URL 10" },
+  { src: Robottok11, link: "외부 링크 URL 11" },
+  { src: Robottok12, link: "외부 링크 URL 12" },
+  { src: Robottok13, link: "외부 링크 URL 13" },
+];
 
 const Pagelist = () => {
-    return (
-        <div className="grid grid-cols-3 gap-4">
-          <div>
-            <img src={Robottok1} alt="" />
-          </div>
-          <div>
-            <img src={Robottok2} alt="" />
-          </div>
-          <div>
-            <img src={Robottok3} alt="" />
-          </div>
-          <div>
-            <img src={Robottok4} alt="" />
-          </div>
-          <div>
-            <img src={Robottok5} alt="" />
-          </div>
-          <div>
-            <img src={Robottok6} alt="" />
-          </div>
-          <div>
-            <img src={Robottok7} alt="" />
-          </div>
-          <div>
-            <img src={Robottok8} alt="" />
-          </div>
-          <div>
-            <img src={Robottok9} alt="" />
-          </div>
-          <div>
-            <img src={Robottok10} alt="" />
-          </div>
-          <div>
-            <img src={Robottok11} alt="" />
-          </div>
-          <div>
-            <img src={Robottok12} alt="" />
-          </div>
-          <div>
-            <img src={Robottok13} alt="" />
-          </div>
+  const handleImageClick = (link) => {
+    window.open(link, '_blank', 'noopener noreferrer');
+  };
+
+  return (
+    <div className="grid grid-cols-3 gap-4">
+      {RobottokImages.map((image, index) => (
+        <div key={index} onClick={() => handleImageClick(image.link)} style={{ cursor: 'pointer' }}>
+          <img src={image.src} alt="" />
         </div>
-    );
+      ))}
+    </div>
+  );
 };
 
 export default Pagelist;
