@@ -6,7 +6,7 @@ import Robottok from "../imagesfarm/Header/Robottok1_1.png";
 const Taglist = () => {
     return (
         <div className="">
-            <img src={Robottok} alt="" />
+            {/* <img src={} alt="" /> */}
         
         </div>
     );
