@@ -4,7 +4,7 @@ import Robottok from "../imagesfarm/Header/Robottok1_1.png";
 
 const Header = () => {
     return (
-        <div className="h-screen ">
+        <div className="">
             <img src={Robottok} alt="" />
         
         </div>

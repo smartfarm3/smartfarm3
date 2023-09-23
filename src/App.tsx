@@ -4,7 +4,7 @@ import "../public/css/index.css";
 
 import Header from "./pages/Header";
 import Footer from "./pages/Footer";
-import Taglist from "./pages/Taglist";
+import Pagelist from "./pages/Pagelist";
 
 // import Home from "./pages/Page_Home";
 // import Sub from "./pages/Page_Sub";
@@ -14,7 +14,7 @@ const App = () => {
     return (
         <div className="grid place-items-center">
             <Header />
-            <Taglist />
+            <Pagelist />
 
             <Footer />
 
