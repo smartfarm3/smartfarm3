@@ -15,7 +15,7 @@ import Robottok12 from "../imagesfarm/farmlist/farm12.png";
 import Robottok13 from "../imagesfarm/farmlist/farm13.png";
 
 const RobottokImages = [
-  { src: Robottok1, link: "외부 링크 URL 1" },
+  { src: Robottok1, link: "https://www.notion.so/9c844210836248b2a8c319c75d912b09?pvs=4" },
   { src: Robottok2, link: "외부 링크 URL 2" },
   { src: Robottok3, link: "외부 링크 URL 3" },
   { src: Robottok4, link: "외부 링크 URL 4" },
