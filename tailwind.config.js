@@ -12,7 +12,12 @@ module.exports = {
             '3xl': '1600px',
             'tablet': '640px',
             // => @media (min-width: 640px) { ... }
-        }
+        },
+        extend: {
+            backgroundColor: {
+              'custom': '#424242',
+            },
+          },
     },
     plugins: [color],
 };
